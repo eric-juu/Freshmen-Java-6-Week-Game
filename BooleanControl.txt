@@ -1,0 +1,69 @@
+1
+Question:
+What does the following conditional mean?
+
+!(x>0 && x%2 ==0)
+Options:
+x>0 || x%2 == 0
+x<0 && x%2 != 0
+x>= || x&2 != 0
+x<=0 || x%2 != 0
+Answer: x<=0 || x%2 != 0
+
+2
+Question:
+What does the following conditional mean?
+
+!(x>0 || x<0)
+Options:
+x>0 || x<0
+x<0 || x>0
+x<=0 && x >=0
+x >= 0 && x <=0
+Answer: x<=0 && x >=0
+
+3
+Question:
+Simplfy.
+!(true||false)
+Options:
+true
+false
+true || false
+None of the above
+Answer: false
+
+4
+Question:
+Simplfy.
+!(!(true))
+Options:
+true
+false
+All of the above
+None of the above
+Answer: true
+
+5
+Question:
+Simplfy all the way.
+!(x <= 10 || !(x > 12) && y == 90)
+Options:
+x > 10 || y != 10
+x < 10 && x <= 12 || y == 90
+x > 10 && x < 12 && y == 90
+None of the above
+Answer: x > 10 || y != 10
+
+6
+Question:
+Simplfy.
+!(!( x > 12 || y < 12)|| x < 12 && y > 12)
+Options:
+x > 12 && y != 10
+x < = 12 || y == 10
+Never will be true
+None of the above
+Answer: Never will be true
+
+

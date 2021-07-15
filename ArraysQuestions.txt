@@ -1,0 +1,83 @@
+1
+Question:
+Consider this program segment:\n
+\n
+for (int i = 2; i <= k; i++)\n
+	if (arr[i] < someValue)\n
+		System.out.println("SMALL");\n
+\n
+What is the maximum number of times that SMALL can be printed?
+Options: 
+0
+1
+k - 1
+k - 2
+Answer: k - 1
+
+2
+Question:
+Which of the following correctly initializes an array named arr to contain four elements each with a value of 0?
+
+I:int[] arr = {0,0,0,0};
+
+II:int[] arr = new int[4];
+
+III:int[] arr = new int[4];
+    for (int j = 0; i < arr.length; i++)
+	arr[i] = 0;
+Options: 
+I only
+II only
+III only
+I, II, and III
+Answer: I, II, and III
+
+3
+Question:
+Refer to the following code segment. Assume arr is an array of int values.
+
+int sum = arr[0], i = 0;
+while (i < arr.length)
+{
+	i++;
+	sum += arr[i];
+}
+
+
+What will be the result when the code is run?
+Options: 
+An infinate loop
+Runtime error
+The sum of arr[0],arr[1]...arr[arr.length-1] will be stored in sum.
+The sum of arr[0],arr[1]...arr[arr.length] will be stored in sum. 
+Answer: Runtime error
+
+4
+Question:
+Write the code needed to declare a array with the data type String named manequin and give it the size of 10
+Options: 
+String manequin = 10;
+String [] manequin = new String[10];
+String manequin = new String(10); 
+manequin[] = new String[10];
+Answer: String [] manequin = new String[10];
+
+5
+Question:
+Write code to assign the number 609 to an array named bigNumbers at the index of 10(Assume the array has already been initialized)
+Options: 
+bigNumbers[609] = 10;
+609 = bigNumbers[10];
+bigNumbers10 = 609;
+bigNumbers[10] = 609;
+Answer: bigNumbers[10] = 609;
+
+6
+Question:
+How would you assign the number at the index that is 3 less then the arrays length?
+Options: 
+turtle[3] = 78908;
+communism[communism.length - 3] = ACONSTANT;
+globe[globe.length] = "heyya";
+crab[seaTurtle.length - 3] = 6;
+Answer: communism[communism.length - 3] = ACONSTANT;

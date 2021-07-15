@@ -1,0 +1,103 @@
+1
+Question:
+What will be the output of the following poorly formatted program segment if 22 is inputted?
+
+int num = (call method that reads an integer);
+if (num > 0)
+if (num % 5 == 0)
+System.out.println(num);
+else System.out.println(num + " is negative");
+Options:
+22
+4
+2 is negative
+22 is negative
+Answer: 22 is negative
+
+2
+Question:
+What values are stored for x and y after execution of the following program segment?
+
+int x = 30, y = 40;
+if(x >= 0)
+{
+	if(x <= 100)
+	{
+		y = x * 3;
+		if (y < 50)
+			x /=10;
+	}
+	else 
+		y = x * 2;
+}
+else
+	y = -x;
+Options:
+x = 30, y = 90
+x = 30, y = -30
+x = 30, y = 60
+x = 69 y = 320
+Answer: x = 30, y = 90
+
+3
+Question:
+Consider the following code fragment.
+
+if(n != 0 && x / n > 100)
+	(statement1);
+else
+	(statement2);
+Options:
+A syntax error will occur
+statement1, but not statement2 will be run
+statement2, but not statement1 will be run
+Neither will run
+Answer: statement2, but not statement1 will run
+
+4
+Question:
+What will be the output of this program?
+
+for(int i = 0; y < 3; y++)
+{
+	System.out.println(y+" ");
+}
+Options:
+1 2 3
+0 2 4
+0 1 2
+1 3 5
+Answer: 0 1 2
+
+5
+Question:
+What will be the output of this program?
+
+int u = 19;
+do
+{
+	System.out.print(u + " ");
+	u = u/3;
+}while(u != 2)
+Options:
+6 2 0
+19 19 6
+19 6 2
+19 9 4
+Answer: 19 6 2
+
+6
+Question:
+How many times will this code run?
+
+int q = 76;
+while(q <= 76)
+{
+	System.out.print("This will not print");
+}
+Options:
+1
+2
+3
+Infinatly many times until you some how stop it
+Answer: Infinatly many times until you some how stop it

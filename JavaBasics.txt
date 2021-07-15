@@ -1,0 +1,59 @@
+1
+Question:
+Convert 1000101 into decimal.
+Options:
+60
+55
+69
+71
+Answer: 69
+
+2
+Question:
+What are the two types of Java Code?
+Options:
+Run Code and BitCode
+Source Code and ByteCode
+Global Code and PrivateCode
+Written Code and CompiledCode
+Answer: Source Code and ByteCode
+
+3
+Question:
+What does OOP stand for?
+Options:
+Objective Offline Programing
+Original Object Porgram
+Object Oriented Programing
+Ossentian Oreinted Program
+Answer: Object Oriented Programing
+
+4
+Question:
+Compare RAM and ROM?
+Options:
+ROM is read only and RAM is read and write
+RAM means Random Accsess Memory while ROM is Read Only Memory
+RAM is the memory used while to computer is on while ROM has pre-written instcrutions of start up
+All of the Above
+Answer: All of the above
+
+5
+Question:
+What type of programming language is C
+Options:
+Object Oriented
+Interpretted
+Structured
+None
+Answer: Structured
+
+6
+Question:
+Which of these are NOT ever linux commands?
+Options:
+javac Globe.java
+ls - l
+mkdir Crab Turtle
+<div id="custom-bg-preview"></div>
+Answer: <div id="custom-bg-preview"></div>

@@ -1,0 +1,87 @@
+1
+Question:
+What is the result of "one" when these lines when executed?
+
+String one = new String("Acid");
+one = one.indexOf('i');
+Options:
+2
+3
+1
+5
+Answer: 2
+
+2
+Question:
+What is the result of the string named virus when these lines are run?
+
+String virus = new String("COVID-19");
+virus = virus.substring(2,5);
+Options:
+COVI
+VID-
+D-19
+OVID
+Answer: VID-
+
+3
+Question:
+What is the the string's value when the lines are run?
+
+String house = new String("Combination");
+house = house.substring(1,5).toUpperCase();
+Options:
+COMBI
+nation
+OMBIN
+INATIO
+Answer:OMBIN
+
+4
+Question:
+How many objects are created when the code is run?
+
+String shelf = new String("cabinet");
+String bottle = new String(shelf);
+String protectors = shelf;
+Options:
+1
+3
+2
+4
+Answer:2
+
+5
+Question:
+How much garbage is left when the code is finished?
+
+String bottle = new String("lamp");
+String box = "dog";
+String turt = bottle + box;
+bottle = box;
+bottle = new String("hot dog");
+String protectors = shelf;
+Options:
+1
+2
+3
+4
+Answer:1
+
+6
+Question:
+What does the reference variable green point to when the code is finished?
+
+String green = new String("green");
+green = new String("Why am I red");
+String red = "yellow";
+String blue = "yellow";
+green = red;
+red = "pink";
+Options:
+green
+Why am I red
+yellow
+pink
+Answer:yellow
+
